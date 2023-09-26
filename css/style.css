@@ -1,0 +1,80 @@
+@charset "UTF-8";
+/* CSS Document */
+body{
+   background-color: aqua;
+    background-image: url(../images/BG.webp);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+ul {list-style:none;
+   text-align: center;
+}
+
+ul li { display: inline-block;
+} 
+ul li a{
+    color: darkorange;
+    font-size: 40px;
+    text-decoration: none;
+    padding-left:5px ;
+    padding-top:2px ;
+    padding-bottom:2px ;
+    padding-right:5px ;
+    margin-right: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+ul li a:hover{
+    color:darkslategray;
+    background-color: red;
+     }
+
+     .container{
+        height: 300px;
+        width: 960px;
+        background-color: gray;
+        margin: 0 auto;
+        margin-top: 50px;
+     }
+     header{
+        background-color:aqua;
+        padding: 30px;
+        text-align: center;
+        font-size: 35px;
+        color: white;
+     }
+
+     *{
+        box-sizing: border-box;
+     }
+     nav{
+        float: left;
+        width: 30%;
+        height: 315px;
+        background-color: lightcoral;
+        padding: 20px;
+     }
+    
+
+     article{
+        float: left;
+        padding: 20px;
+        width: 70%;
+        background-color: crimson;
+        height: 315px;
+     }
+
+     section::after{
+        content: "";
+        display: table;
+        clear: both;
+     }
+
+     footer{
+        background-color: deeppink;
+        padding: 10px;
+        text-align: center;
+        color: orange;
+     }
